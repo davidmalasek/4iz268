@@ -1,0 +1,129 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-ish {
+	color: red;
+}
+
+.green-ish {
+	color: rgb(0, 128, 0);
+}
+
+.blue-ish-and-bold {
+	color: #0000ff;
+	font-weight: 600;
+}
+
+.eighteen-px {
+	font-size: 18px;
+}
+
+.twentyfour-and-italic {
+	font-size: 24px;
+	font-style: italic;
+}
+
+.white-and-brown-bg {
+	color: #fff;
+	background-color: #a55300;
+}
+
+.center-and-line-height {
+	text-align: center;
+	line-height: 32px;
+}
+
+.justified-and-capitalized {
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+.box1 {
+	width: 400px;
+	height: 300px;
+	border: solid 1px purple;
+	padding: 30px;
+}
+
+.box2 {
+	width: 500px;
+	height: 200px;
+	background-color: #a52a2a;
+	margin: 100px;
+}
+
+.invisible {
+	display: none;
+}
+
+.box3 {
+	width: 100%;
+	background-color: lightblue;
+	padding: 50px;
+	border: 10px solid yellow;
+	box-sizing: border-box;
+}
+
+.zero-opacity {
+	opacity: 0;
+}
+
+.box4 {
+	height: 200px;
+	width: 500px;
+	background-color: lightgreen;
+	opacity: 0.5;
+}
+
+.box5 {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	background-color: lightblue;
+}
+
+.box6 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	background-color: pink;
+}
+
+.box7 {
+	width: 200px;
+	height: 400px;
+	border: solid 20px brown;
+	border-radius: 10px;
+}
+
+.button-1 {
+	width: 300px;
+	height: 100px;
+}
+
+.button-1:active {
+	color: blue;
+}
+
+.button-2 {
+	width: 200px;
+	height: 50px;
+}
+
+.button-2:hover {
+	background-color: brown;
+}
+
+.box8 {
+	width: 200px;
+	height: 500px;
+	background-color: lightblue;
+	margin-top: 200px;
+}
+
+.box8:hover {
+	cursor: pointer;
+}
